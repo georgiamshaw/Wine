@@ -1,0 +1,103 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: 	rgba(54, 69, 79, 1.0);
+  margin: 10px 0px 0px 10px;
+  padding: 5% 1% 1% 1%;
+}
+h1 {
+  font-size: 200%;
+  padding: 3% 30% 3% 0%;
+}
+h2 {
+  font-size: 190%;
+  padding: 0% 30% 0% 0%;
+}
+h3 {
+  font-size: 120%;
+  padding: 0% 30% 0% 0%;
+}
+p {
+  color: rgba(67, 86, 98, 1.0);
+  padding: 3% 20% 3% 5%;
+  font-size: 120%;
+}
+#one {
+  padding: 3% 35% 3% 5%;
+}
+#two {
+  padding: 3% 38% 3% 5%;
+}
+#three {
+  padding: 3% 38% 3% 5%;
+}
+#four {
+  padding: 3% 35% 3% 5%;
+}
+#fish {
+  height: 60px;
+  width: 80px;
+  padding: 13px 5px;
+  margin: 10px 300px 40px 40px;
+  float:right;
+  transition: 0.6s;
+  border: 4px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+#fish:hover {
+  box-shadow: 3px 3px 3px 3px grey;
+  transform: scale(1.1);
+  background-color: white;
+}
+#cow {
+  height: 80px;
+  width: 80px;
+  padding: 3px 10px;
+  margin: 10px 10px 60px 60px;
+  float: left;
+  transition: 0.6s;
+  border: 4px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px grey;
+  background-color: white;
+}
+#cow:hover {
+  box-shadow: 3px 3px 3px 3px grey;
+  transform: scale(1.1);
+  background-color: white;
+}
+#chicken {
+  height: 50px;
+  width: 70px;
+  padding: 18px 10px;
+  margin: 10px 10px 60px 60px;
+  float: right;
+  transition: 0.6s;
+  border: 4px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+#chicken:hover {
+  box-shadow: 3px 3px 3px 3px grey;
+  transform: scale(1.1);
+  background-color: white;
+}
+#veggie {
+  height: 50px;
+  width: 70px;
+  padding: 18px 10px;
+  margin: 10px 10px 60px 60px;
+  float: right;
+  transition: 0.6s;
+  border: 4px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+#veggie:hover {
+  box-shadow: 3px 3px 3px 3px grey;
+  transform: scale(1.1);
+  background-color: white;
+  .container {
+    display: inline-block;
+    cursor: pointer;
+}
