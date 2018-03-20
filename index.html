@@ -4,17 +4,29 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
    <head>
      <title>Wine</title>
+      <!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form -->
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="   Search for wine..." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
    </head>
    <body>
      <h1>Hey, good looking...</h1>
      <h2>What's for dinner?</h2>
-      <a href="wine_pages/cabsauv.html">
-        <img src="images/cow.svg" alt="cow" id="cow">
-      <a href="wine_pages/sauvblanc.html">
-        <img src="images/fish.svg" alt="fish" id="fish">
-      <a href="wine_pages/pinotnoir.html">
-        <img src="images/chicken.svg" alt="chicken" id="chicken">
-      <a href="wine_pages/chardonnay.html">
-        <img src="images/veggie.svg" alt="veggie" id="veggie">
+      <a href="wine_pages/cabsauv.html" class="wine_btns" id="cow">
+        <img src="images/cow.svg" alt="cow" id="cowImage" class="wine_btn_img" />
+      </a>
+      <a href="wine_pages/sauvblanc.html" class="wine_btns" id="fish">
+        <img src="images/fish.svg" alt="fish" class="wine_btn_img" />
+      </a>
+      <a href="wine_pages/pinotnoir.html" class="wine_btns" id="chicken">
+        <img src="images/chicken.svg" alt="chicken" class="wine_btn_img" />
+      </a>
+      <a href="wine_pages/chardonnay.html" class="wine_btns" id="veggie">
+        <img src="images/veggie.svg" alt="veggie" class="wine_btn_img" />
+      </a>
    </body>
  </html>

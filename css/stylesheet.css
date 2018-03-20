@@ -1,8 +1,42 @@
 * {
   font-family: 'Open Sans', sans-serif;
   color: 	rgba(54, 69, 79, 1.0);
-  margin: 10px 0px 0px 10px;
-  padding: 5% 1% 1% 1%;
+  box-sizing: 10px;
+}
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  margin: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  border: 0px;
+  float: right;
+  width: 30%;
+  background: #f1f1f1;
+  border-radius: 40px;
+}
+
+/* Style the submit button */
+form.example button {
+  float: right;
+  width: inherit;
+  padding: 0px;
+  background: rgba(84, 99, 39, 1.0);
+  color: white;
+  font-size: 17px;
+  border-left: none; /* Prevent double borders */
+  cursor: progress;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 h1 {
   font-size: 200%;
@@ -33,11 +67,21 @@ p {
 #four {
   padding: 3% 35% 3% 5%;
 }
+
+.wine_btn {
+  display: inline-block;
+}
+
+.wine_btn_img {
+  width: 100%;
+  height: auto;
+}
+
 #fish {
   height: 60px;
   width: 80px;
   padding: 13px 5px;
-  margin: 10px 300px 40px 40px;
+  /*margin: 10px 300px 40px 40px;*/
   float:right;
   transition: 0.6s;
   border: 4px;
@@ -50,10 +94,11 @@ p {
   background-color: white;
 }
 #cow {
+  display: inline-block;
   height: 80px;
   width: 80px;
   padding: 3px 10px;
-  margin: 10px 10px 60px 60px;
+  /*margin: 10px 10px 60px 60px;*/
   float: left;
   transition: 0.6s;
   border: 4px;
@@ -67,10 +112,11 @@ p {
   background-color: white;
 }
 #chicken {
+  display: inline-block;
   height: 50px;
   width: 70px;
   padding: 18px 10px;
-  margin: 10px 10px 60px 60px;
+  /*margin: 10px 10px 60px 60px;*/
   float: right;
   transition: 0.6s;
   border: 4px;
@@ -83,10 +129,11 @@ p {
   background-color: white;
 }
 #veggie {
+  display: inline-block;
   height: 50px;
   width: 70px;
   padding: 18px 10px;
-  margin: 10px 10px 60px 60px;
+  /*margin: 10px 10px 60px 60px;*/
   float: right;
   transition: 0.6s;
   border: 4px;
@@ -100,4 +147,8 @@ p {
   .container {
     display: inline-block;
     cursor: pointer;
+}
+img#cowImage {
+  max-width: 80px;
+  width: 80px;
 }
