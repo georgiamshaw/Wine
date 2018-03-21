@@ -1,7 +1,6 @@
 * {
   font-family: 'Open Sans', sans-serif;
   color: 	rgba(54, 69, 79, 1.0);
-  box-sizing: 10px;
 }
 /* Style the search field */
 form.example input[type=text] {
@@ -25,9 +24,8 @@ form.example button {
   color: white;
   font-size: 17px;
   border-left: none; /* Prevent double borders */
-  cursor: progress;
+  cursor: pointer;
 }
-
 form.example button:hover {
   background: #0b7dda;
 }
