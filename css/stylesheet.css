@@ -50,16 +50,21 @@ form.example::after {
   opacity: 0.2;
 }
 h1 {
-  font-size: 200%;
+  font-size: 300%;
+  left: 30px;
   padding: 3% 30% 3% 0%;
   background-color: transparent;
-  color: #dcdcdc;
+  color: rgba(80, 80, 80, 1);
+  position: absolute;
+  margin: -140px 10px 80px 100px;
 }
 h2 {
-  font-size: 190%;
+  font-size: 290%;
   padding: 0% 30% 0% 0%;
   background-color: transparent;
-  color: #dcdcdc;
+  color: rgba(80, 80, 80, 1);
+  position: absolute;
+  margin: 10px 10px 80px -205px;
 }
 h3 {
   font-size: 120%;
@@ -158,6 +163,16 @@ p {
 }
 .head_image {
   background-image: url(../images/Wino.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 18%;
+  margin: 20px 90px 40px 90px;
+  background-color: white;
+  text-align: left;
+}
+.head_image_white {
+  background-image: url(../images/whiteWine.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
