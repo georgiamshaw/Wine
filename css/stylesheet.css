@@ -1,5 +1,5 @@
 * {
-  background-color: #FFFAF0;
+  background-color: #f4f4f4;
   font-family: 'Open Sans', sans-serif;
   color: 	rgba(54, 69, 79, 1.0);
   margin: auto;
@@ -40,7 +40,6 @@ form.example::after {
   display: table;
 }
 .first_bar {
-  background-color: #FFFAF0;
   position: relative;
   font-size: 11px;
   margin: 0px 30px 0px 30px;
@@ -48,23 +47,26 @@ form.example::after {
   color: #173f35;
   text-align: center;
   background-color: black;
-  opacity: 0.3;
+  opacity: 0.2;
 }
-
 h1 {
   font-size: 200%;
   padding: 3% 30% 3% 0%;
+  background-color: white;
 }
 h2 {
   font-size: 190%;
   padding: 0% 30% 0% 0%;
+  background-color: white;
 }
 h3 {
   font-size: 120%;
   padding: 0% 30% 0% 0%;
+  background-color: white;
 }
 p {
   color: rgba(67, 86, 98, 1.0);
+  background-color: white;
   padding: 3% 20% 3% 5%;
   font-size: 120%;
 }
@@ -133,4 +135,10 @@ p {
     flex-wrap: wrap;
     max-width: 200px;
   }
+}
+.trying_with {
+  padding: 40px;
+  margin: 20px 60px 40px 60px;
+  background-color: white;
+  text-align: left;
 }
