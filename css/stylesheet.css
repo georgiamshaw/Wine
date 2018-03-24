@@ -142,3 +142,9 @@ p {
   background-color: white;
   text-align: left;
 }
+.head_image {
+  padding: 40px;
+  margin: 20px 60px 40px 60px;
+  background-color: white;
+  text-align: left;
+}
