@@ -69,10 +69,10 @@ h3 {
 p {
   color: rgba(67, 86, 98, 1.0);
   background-color: white;
-  padding: 3% 20% 3% 5%;
+  padding: 3% 0% 3% 0%;
   font-size: 120%;
 }
-#one {
+/*#one {
   padding: 3% 35% 3% 5%;
 }
 #two {
@@ -83,7 +83,7 @@ p {
 }
 #four {
   padding: 3% 35% 3% 5%;
-}
+}*/
 
 .button_container {
   display: flex;
@@ -138,9 +138,21 @@ p {
     max-width: 200px;
   }
 }
+.description {
+  padding: 40px;
+  margin: 20px 500px 40px 80px;
+  background-color: white;
+  text-align: left;
+}
+.eyes_nose_mouth {
+  padding: 40px;
+  margin: 20px 80px 40px 270px;
+  background-color: white;
+  text-align: left;
+}
 .trying_with {
   padding: 40px;
-  margin: 20px 60px 40px 60px;
+  margin: 20px 220px 40px 80px;
   background-color: white;
   text-align: left;
 }
