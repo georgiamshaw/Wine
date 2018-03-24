@@ -51,6 +51,7 @@ form.example::after {
 }
 h1 {
   font-size: 200%;
+  left: 30px;
   padding: 3% 30% 3% 0%;
   background-color: transparent;
   color: #dcdcdc;
@@ -158,6 +159,16 @@ p {
 }
 .head_image {
   background-image: url(../images/Wino.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 18%;
+  margin: 20px 90px 40px 90px;
+  background-color: white;
+  text-align: left;
+}
+.head_image_white {
+  background-image: url(../images/whiteWine.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
