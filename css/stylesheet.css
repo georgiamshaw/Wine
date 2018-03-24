@@ -66,8 +66,31 @@ p {
   padding: 3% 35% 3% 5%;
 }
 
+.button_container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
 .wine_btn {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 80px;
+  width: 80px;
+  height: 80px;
+  /*margin: 10px 10px 60px 60px;*/
+  transition: 0.6s;
+  border: 4px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.wine_btn:hover {
+  box-shadow: 3px 3px 3px 3px grey;
+  transform: scale(1.1);
+  background-color: white;
 }
 
 .wine_btn_img {
@@ -76,77 +99,21 @@ p {
 }
 
 #fish {
-  height: 60px;
-  width: 80px;
   padding: 13px 5px;
-  /*margin: 10px 300px 40px 40px;*/
-  float:right;
-  transition: 0.6s;
-  border: 4px;
-  border-radius: 20px;
-  box-shadow: 1px 1px 1px 1px grey;
-}
-#fish:hover {
-  box-shadow: 3px 3px 3px 3px grey;
-  transform: scale(1.1);
-  background-color: white;
 }
 #cow {
-  display: inline-block;
-  height: 80px;
-  width: 80px;
   padding: 3px 10px;
-  /*margin: 10px 10px 60px 60px;*/
-  float: left;
-  transition: 0.6s;
-  border: 4px;
-  border-radius: 20px;
-  box-shadow: 1px 1px 1px 1px grey;
-  background-color: white;
-}
-#cow:hover {
-  box-shadow: 3px 3px 3px 3px grey;
-  transform: scale(1.1);
-  background-color: white;
 }
 #chicken {
-  display: inline-block;
-  height: 50px;
-  width: 70px;
   padding: 18px 10px;
-  /*margin: 10px 10px 60px 60px;*/
-  float: right;
-  transition: 0.6s;
-  border: 4px;
-  border-radius: 20px;
-  box-shadow: 1px 1px 1px 1px grey;
-}
-#chicken:hover {
-  box-shadow: 3px 3px 3px 3px grey;
-  transform: scale(1.1);
-  background-color: white;
 }
 #veggie {
-  display: inline-block;
-  height: 50px;
-  width: 70px;
   padding: 18px 10px;
-  /*margin: 10px 10px 60px 60px;*/
-  float: right;
-  transition: 0.6s;
-  border: 4px;
-  border-radius: 20px;
-  box-shadow: 1px 1px 1px 1px grey;
 }
-#veggie:hover {
-  box-shadow: 3px 3px 3px 3px grey;
-  transform: scale(1.1);
-  background-color: white;
-  .container {
-    display: inline-block;
-    cursor: pointer;
-}
-img#cowImage {
-  max-width: 80px;
-  width: 80px;
+
+@media (max-width: 400px) {
+  .button_container {
+    flex-wrap: wrap;
+    max-width: 200px;
+  }
 }
