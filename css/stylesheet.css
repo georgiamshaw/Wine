@@ -1,8 +1,10 @@
 * {
-  background-color: #f4f4f4;
   font-family: 'Open Sans', sans-serif;
   color: 	rgba(54, 69, 79, 1.0);
   margin: auto;
+}
+body {
+  background-color: #f4f4f4;
 }
 
 /* Style the search field */
