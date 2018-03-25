@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <div class="first_bar">
-  </div>
   <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Wine</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <script src="js/index.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
   <!-- Load icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <div class="first_bar">
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn"><div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div></button>
+      <div id="myDropdown" class="dropdown-content">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="wine_pages/cabsauv.html">Cabernet Sauvignon</a></li>
+          <li><a href="wine_pages/pinotnoir.html">Pinot Noir</a></li>
+          <li><a href="wine_pages/sauvblanc.html">Sauvignon Blanc</a></li>
+          <li><a href="wine_pages/chardonnay.html">Chardonnay</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
 </head>
 <body>
   <!-- The form
@@ -50,11 +67,12 @@
     </div>
   </div>
 </body>
-
 <footer>
   <div class="first_bar">
     <a href="javascript:void(0)" class="fa fa-facebook"></a>
     <a href="javascript:void(0)" class="fa fa-twitter"></a>
   </div>
+
+
 </footer>
 </html>
