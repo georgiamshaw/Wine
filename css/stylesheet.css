@@ -1,8 +1,10 @@
 * {
-  background-color: #f4f4f4;
   font-family: 'Open Sans', sans-serif;
   color: 	rgba(54, 69, 79, 1.0);
   margin: auto;
+}
+body {
+  background-color: #f4f4f4;
 }
 
 /* Style the search field */
@@ -42,7 +44,7 @@ form.example::after {
 .first_bar {
   position: relative;
   font-size: 11px;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 30px 0px 30px;
   height: 80px;
   color: #173f35;
   text-align: center;
@@ -52,13 +54,18 @@ form.example::after {
 }
 h1 {
   font-size: 300%;
+  font-weight: bold;
   left: 30px;
   padding: 3% 30% 3% 0%;
   background-color: transparent;
   color: rgba(80, 80, 80, 1);
 }
+.white {
+  color: white;
+}
 h2 {
   font-size: 290%;
+  font-weight: bold;
   padding: 0% 30% 0% 0%;
   background-color: transparent;
   color: rgba(80, 80, 80, 1);
@@ -102,7 +109,7 @@ p {
   flex: 0 0 80px;
   width: 80px;
   height: 80px;
-  margin: 20px 10px 20px 0px;
+  margin: 20px 10px 0px 0px;
   transition: 0.6s;
   border: 4px;
   border-radius: 20px;
@@ -190,12 +197,6 @@ p {
   background-color: white;
   text-align: left;
 }
-.head_image_red h1 {
-  color: rgba(255, 255, 255, 1)
-}
-.head_image_red h2 {
-  color: rgba(255, 255, 255, 1)
-}
 .head_image_white {
   background-image: url(../images/whiteWine.jpg);
   background-size: cover;
@@ -208,19 +209,12 @@ p {
 }
 /* Style all font awesome icons */
 .fa {
-    padding: 12px;
-    font-size: 300px;
-    width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 30%;
     z-index: 4;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-}
 
 /* Set a specific color for each brand */
 
@@ -228,12 +222,14 @@ p {
 .fa-facebook {
     background: #3B5998;
     color: white;
+    padding: 12px;
 }
 
 /* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
+      padding: 12px;
 }
 #title_wrap {
   padding: 0;
@@ -321,7 +317,7 @@ li a:hover {
 .dropdown {
     position: relative;
     display: inline-block;
-    top: 20%;
+    top: 15%;
     left: 40%;
 }
 
@@ -353,3 +349,18 @@ li a:hover {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+#home_button {
+  background-color: rgb(160,160,160);
+  position: relative;
+  top: 10%;
+  right: 42%;
+  font-size: 400%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.fa-home {
+  background-color: rgb(160,160,160);
+  color: #333;
+}
