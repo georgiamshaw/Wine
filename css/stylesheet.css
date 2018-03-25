@@ -42,7 +42,7 @@ form.example::after {
 .first_bar {
   position: relative;
   font-size: 11px;
-  margin: 0px 30px 0px 30px;
+  margin: 0px 0px 0px 0px;
   height: 80px;
   color: #173f35;
   text-align: center;
@@ -55,6 +55,9 @@ h1 {
   padding: 3% 30% 3% 0%;
   background-color: transparent;
   color: rgba(80, 80, 80, 1);
+}
+.white {
+  color: white;
 }
 h2 {
   font-size: 290%;
