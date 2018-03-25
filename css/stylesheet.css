@@ -178,6 +178,12 @@ p {
   background-color: white;
   text-align: left;
 }
+.head_image_red h1 {
+  color: rgba(255, 255, 255, 1)
+}
+.head_image_red h2 {
+  color: rgba(255, 255, 255, 1)
+}
 .head_image_white {
   background-image: url(../images/whiteWine.jpg);
   background-size: cover;
