@@ -189,19 +189,12 @@ p {
 }
 /* Style all font awesome icons */
 .fa {
-    padding: 12px;
-    font-size: 300px;
-    width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 30%;
     z-index: 4;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-}
 
 /* Set a specific color for each brand */
 
@@ -209,12 +202,14 @@ p {
 .fa-facebook {
     background: #3B5998;
     color: white;
+    padding: 12px;
 }
 
 /* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
+      padding: 12px;
 }
 #title_wrap {
   padding: 0;
@@ -302,7 +297,7 @@ li a:hover {
 .dropdown {
     position: relative;
     display: inline-block;
-    top: 20%;
+    top: 15%;
     left: 40%;
 }
 
@@ -334,3 +329,18 @@ li a:hover {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+#home_button {
+  background-color: rgb(160,160,160);
+  position: relative;
+  top: 10%;
+  right: 42%;
+  font-size: 400%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.fa-home {
+  background-color: rgb(160,160,160);
+  color: #333;
+}
