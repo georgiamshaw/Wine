@@ -368,3 +368,17 @@ li a:hover {
   background-color: rgb(160,160,160);
   color: #333;
 }
+#tell_us {
+  text-align: center;
+  padding: 5% 12% 5% 12%;
+  margin: 3% 10% 2% 10%;
+  background-color: transparent;
+  font-size: 200%;
+  font-weight: bolder;
+}
+#second_row {
+  padding: 0% 2% 8% 2%;
+  margin: 20px 90px 40px 90px;
+  background-color: rgb(255, 254, 250);
+  text-align: left;
+}
