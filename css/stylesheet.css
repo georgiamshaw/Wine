@@ -51,13 +51,6 @@ form.example::after {
   background-color: rgb(160,160,160);
   z-index: auto;
 }
-.header_text {
-    display: inline-block;
-    font-family: sans-serif;
-    font-size: x-large;
-    padding: 4px;
-    border:2px solid #173f35;
-}
 .foot_bar {
   position: relative;
   font-size: 11px;
@@ -77,8 +70,16 @@ h1 {
   background-color: transparent;
   color: rgba(80, 80, 80, 1);
 }
-.white {
+.red {
   color: white;
+}
+.red_text {
+  position: relative;
+  left: -15%;
+}
+.white_text {
+  position: relative;
+  left: -20%;
 }
 h2 {
   font-size: 290%;
@@ -99,16 +100,16 @@ p {
   font-size: 120%;
 }
 /*#one {
-  padding: 3% 35% 3% 5%;
+padding: 3% 35% 3% 5%;
 }
 #two {
-  padding: 3% 38% 3% 5%;
+padding: 3% 38% 3% 5%;
 }
 #three {
-  padding: 3% 38% 3% 5%;
+padding: 3% 38% 3% 5%;
 }
 #four {
-  padding: 3% 35% 3% 5%;
+padding: 3% 35% 3% 5%;
 }*/
 
 .button_container {
@@ -187,10 +188,8 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 1%;
-  padding-bottom: 15%;
-  padding-left: 7%;
-  margin-top: 20px;
+  padding: 18%;
+  margin: 20px 90px 40px 90px;
   background-color: white;
 }
 .head_image h1 {
@@ -225,10 +224,10 @@ p {
 }
 /* Style all font awesome icons */
 .fa {
-    text-align: center;
-    text-decoration: none;
-    border-radius: 30%;
-    z-index: 4;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  z-index: 4;
 }
 
 
@@ -236,125 +235,125 @@ p {
 
 /* Facebook */
 .fa-facebook {
-    background: #3B5998;
-    color: white;
-    padding: 12px;
+  background: #3B5998;
+  color: white;
+  padding: 12px;
 }
 
 /* Twitter */
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
-      padding: 12px;
+  background: #55ACEE;
+  color: white;
+  padding: 12px;
 }
 #title_wrap {
   padding: 0;
   margin: 0;
   background-color: transparent;
+  position: relative;
+  left: -20%;
 }
 
-
-
 .container {
-    display: inline-block;
-    cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
 }
 
 /* Rotate first bar */
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
 /* Fade out the second bar */
 .change .bar2 {
-    opacity: 0;
+  opacity: 0;
 }
 
 /* Rotate last bar */
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
 }
 .change .dropdown-content {
   visibility: visible;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    width: 200px;
-    background-color: #f4f4f4;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  width: 200px;
+  background-color: #f4f4f4;
+  text-align: center;
 }
 
 li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: rgb(105,105,105);
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
+  background-color: rgb(105,105,105);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 
 /* Dropdown Button */
 .dropbtn {
-    position: right;
-    background-color: rgb(160,160,160);
-    color: transparent;
-    padding: 5px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+  position: right;
+  background-color: rgb(160,160,160);
+  color: transparent;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: rgb(160,160,160);
-    outline: none;
+  background-color: rgb(160,160,160);
+  outline: none;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
-    display: inline-block;
-    top: 15%;
-    left: 40%;
+  position: relative;
+  display: inline-block;
+  top: 15%;
+  left: 40%;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    right: 10%;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 10%;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    font-size: 15px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
 }
 
 /* Change color of dropdown links on hover */
@@ -379,4 +378,26 @@ li a:hover {
 .fa-home {
   background-color: rgb(160,160,160);
   color: #333;
+}
+#tell_us {
+  text-align: center;
+  padding: 5% 10% 5% 10%;
+  margin: 3% 10% 2% 10%;
+  background-color: transparent;
+  font-size: 200%;
+  font-weight: bolder;
+}
+#tell_you {
+  text-align: center;
+  padding: 5% 10% 5% 10%;
+  margin: 3% 10% 0% 10%;
+  background-color: transparent;
+  font-size: 200%;
+  font-weight: bolder;
+}
+#second_row {
+  padding: 0% 2% 0% 2%;
+  margin: 20px 120px 80px 120px;
+  background-color: rgb(255, 254, 250);
+  text-align: left;
 }
