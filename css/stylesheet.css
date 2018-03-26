@@ -50,7 +50,6 @@ form.example::after {
   text-align: center;
   background-color: rgb(160,160,160);
   z-index: auto;
-  padding: 1%;
 }
 h1 {
   font-size: 300%;
@@ -170,10 +169,8 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 1%;
-  padding-bottom: 15%;
-  padding-left: 7%;
-  margin-top: 10px;
+  padding: 18%;
+  margin: 20px 90px 40px 90px;
   background-color: white;
 }
 .head_image h1 {
