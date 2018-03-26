@@ -44,13 +44,30 @@ form.example::after {
 .first_bar {
   position: relative;
   font-size: 11px;
-  margin: 0px 30px 0px 30px;
+  margin: 0px 0px 0px 0px;
   height: 80px;
   color: #173f35;
   text-align: center;
   background-color: rgb(160,160,160);
   z-index: auto;
-  padding: 1%;
+}
+.header_text {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: x-large;
+    padding: 4px;
+    border:2px solid #173f35;
+}
+.foot_bar {
+  position: relative;
+  font-size: 11px;
+  margin: 0px 0px 0px 0px;
+  height: 80px;
+  color: #173f35;
+  text-align: center;
+  background-color: rgb(160,160,160);
+  z-index: auto;
+  padding: 2%;
 }
 h1 {
   font-size: 300%;
@@ -98,7 +115,7 @@ p {
   display: flex;
   justify-content: space-between;
   max-width: 380px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .wine_btn {
@@ -109,7 +126,7 @@ p {
   flex: 0 0 80px;
   width: 80px;
   height: 80px;
-  margin: 20px 10px 0px 0px;
+  margin: 0px 0px 0px 0px;
   transition: 0.6s;
   border: 4px;
   border-radius: 20px;
@@ -173,7 +190,7 @@ p {
   padding-top: 1%;
   padding-bottom: 15%;
   padding-left: 7%;
-  margin-top: 10px;
+  margin-top: 20px;
   background-color: white;
 }
 .head_image h1 {
