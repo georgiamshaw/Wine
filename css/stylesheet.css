@@ -370,15 +370,23 @@ li a:hover {
 }
 #tell_us {
   text-align: center;
-  padding: 5% 12% 5% 12%;
+  padding: 5% 10% 5% 10%;
   margin: 3% 10% 2% 10%;
   background-color: transparent;
   font-size: 200%;
   font-weight: bolder;
 }
+#tell_you {
+  text-align: center;
+  padding: 5% 10% 5% 10%;
+  margin: 3% 10% 0% 10%;
+  background-color: transparent;
+  font-size: 200%;
+  font-weight: bolder;
+}
 #second_row {
-  padding: 0% 2% 8% 2%;
-  margin: 20px 90px 40px 90px;
+  padding: 0% 2% 0% 2%;
+  margin: 20px 120px 80px 120px;
   background-color: rgb(255, 254, 250);
   text-align: left;
 }
