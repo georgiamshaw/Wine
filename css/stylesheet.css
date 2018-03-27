@@ -81,11 +81,13 @@ h1 {
 }
 .red_text {
   position: relative;
-  left: -15%;
+  left: 4%;
+  top: 5%;
 }
 .white_text {
   position: relative;
-  left: -20%;
+  left: 3%;
+  top: 10%;
 }
 h2 {
   font-size: 290%;
