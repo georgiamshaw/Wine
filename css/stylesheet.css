@@ -368,6 +368,11 @@ li a:hover {
   background-color: rgb(160,160,160);
   color: #333;
 }
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
 #tell_us {
   text-align: center;
   padding: 5% 10% 5% 10%;
