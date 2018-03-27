@@ -126,7 +126,11 @@ padding: 3% 35% 3% 5%;
   max-width: 380px;
   margin: 20px auto;
 }
-
+.social_container {
+  justify-content: space-between;
+  max-width: 300px;
+  padding: 2%;
+}
 .wine_btn {
   background-color: white;
   display: flex;
@@ -246,16 +250,12 @@ padding: 3% 35% 3% 5%;
 .fa-facebook {
   background: #3B5998;
   color: white;
-  padding: 20px;
-  margin-top: 10px;
 }
 
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
   color: white;
-  padding: 20px;
-  margin-top: 10px;
 }
 
 .fa-instagram {
@@ -264,7 +264,7 @@ padding: 3% 35% 3% 5%;
 }
 #facebook {
   font-size: 20px;
-  padding: 2.5% 3% 2.5% 3%;
+  padding: 2.5% 4% 2.5% 4%;
   margin: 1% 1% 1% 1%;
 }
 
@@ -276,7 +276,7 @@ padding: 3% 35% 3% 5%;
 
 #instagram {
   font-size: 20px;
-  padding: 2.5%;
+  padding: 2.5% 3% 2.5% 3%;
   margin: 1% 1% 1% 1%;
 }
 
