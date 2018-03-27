@@ -51,6 +51,17 @@ form.example::after {
   background-color: rgb(160,160,160);
   z-index: auto;
 }
+.foot_bar {
+  position: relative;
+  font-size: 11px;
+  margin: 0px 0px 0px 0px;
+  height: 80px;
+  color: #173f35;
+  text-align: center;
+  background-color: rgb(160,160,160);
+  z-index: auto;
+  padding: 2%;
+}
 h1 {
   font-size: 300%;
   font-weight: bold;
@@ -105,7 +116,7 @@ padding: 3% 35% 3% 5%;
   display: flex;
   justify-content: space-between;
   max-width: 380px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .wine_btn {
@@ -116,7 +127,7 @@ padding: 3% 35% 3% 5%;
   flex: 0 0 80px;
   width: 80px;
   height: 80px;
-  margin: 20px 10px 0px 0px;
+  margin: 0px 0px 0px 0px;
   transition: 0.6s;
   border: 4px;
   border-radius: 20px;
