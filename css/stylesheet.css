@@ -213,18 +213,15 @@ padding: 3% 35% 3% 5%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 18%;
-  margin: 20px 90px 40px 90px;
+  height: 80vh;
   background-color: white;
-  text-align: left;
 }
 .head_image_white {
   background-image: url(../images/whiteWine.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 18%;
-  margin: 20px 90px 40px 90px;
+  height: 80vh;
   background-color: white;
   text-align: left;
 }
@@ -424,4 +421,17 @@ li a:hover {
   margin: 20px 120px 80px 120px;
   background-color: rgb(255, 254, 250);
   text-align: left;
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-fluid-wine {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
