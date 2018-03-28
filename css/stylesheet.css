@@ -6,8 +6,6 @@
 body {
   background-color: #f4f4f4;
 }
-
-/* Style the search field */
 form.example input[type=text] {
   padding: 10px;
   margin: 10px 20px;
@@ -19,8 +17,6 @@ form.example input[type=text] {
   background: #f1f1f1;
   border-radius: 40px;
 }
-
-/* Style the submit button */
 form.example button {
   float: right;
   width: inherit;
@@ -28,20 +24,17 @@ form.example button {
   background: rgba(84, 99, 39, 1.0);
   color: white;
   font-size: 17px;
-  border-left: none; /* Prevent double borders */
+  border-left: none;
   cursor: pointer;
 }
 form.example button:hover {
   background: #0b7dda;
 }
-
-/* Clear floats */
 form.example::after {
   content: "";
   clear: both;
   display: table;
 }
-
 .first_bar {
   position: relative;
   font-size: 11px;
@@ -52,7 +45,6 @@ form.example::after {
   background-color: rgb(160,160,160);
   z-index: auto;
 }
-
 #choices {
   float: none;
 }
@@ -107,23 +99,11 @@ p {
   padding: 3% 0% 3% 0%;
   font-size: 120%;
 }
-/*#one {
-padding: 3% 35% 3% 5%;
-}
-#two {
-padding: 3% 38% 3% 5%;
-}
-#three {
-padding: 3% 38% 3% 5%;
-}
-#four {
-padding: 3% 35% 3% 5%;
-}*/
-
 .button_container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 380px;
+  max-width: 580px;
   margin: 20px auto;
 }
 .social_container {
@@ -145,13 +125,11 @@ padding: 3% 35% 3% 5%;
   border-radius: 20px;
   box-shadow: 1px 1px 1px 1px grey;
 }
-
 .wine_btn:hover {
   box-shadow: 3px 3px 3px 3px grey;
   transform: scale(1.1);
   background-color: white;
 }
-
 .wine_btn_img {
   width: 100%;
   height: auto;
@@ -160,18 +138,29 @@ padding: 3% 35% 3% 5%;
 }
 
 #fish {
-  padding: 13px 5px;
+  padding: 0px 10px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
 }
 #cow {
-  padding: 3px 10px;
+  padding: 0px 10px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
 }
 #chicken {
-  padding: 18px 10px;
+  padding: 0px 10px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
 }
 #veggie {
-  padding: 18px 10px;
+  padding: 0px 10px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
 }
-
 @media (max-width: 400px) {
   .button_container {
     flex-wrap: wrap;
@@ -202,6 +191,7 @@ padding: 3% 35% 3% 5%;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+  margin-top: 20px;
   background-color: white;
 }
 .head_image h1 {
@@ -231,7 +221,6 @@ padding: 3% 35% 3% 5%;
   background-color: white;
   text-align: left;
 }
-/* Style all font awesome icons */
 .fa {
   text-align: center;
   text-decoration: none;
@@ -242,22 +231,14 @@ padding: 3% 35% 3% 5%;
   max-width: 100px;
   cursor: pointer;
 }
-
-
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
-
-/* Twitter */
 .fa-twitter {
   background: #55ACEE;
   color: white;
 }
-
 .fa-instagram {
   background: rgb(240, 92, 121);
   color: white;
@@ -267,19 +248,16 @@ padding: 3% 35% 3% 5%;
   padding: 2.5% 4% 2.5% 4%;
   margin: 1% 1% 1% 1%;
 }
-
 #twitter {
   font-size: 20px;
   padding: 2.5%;
   margin: 1% 1% 1% 1%;
 }
-
 #instagram {
   font-size: 20px;
   padding: 2.5% 3% 2.5% 3%;
   margin: 1% 1% 1% 1%;
 }
-
 #title_wrap {
   padding: 0;
   margin: 0;
@@ -287,9 +265,8 @@ padding: 3% 35% 3% 5%;
   position: relative;
   left: 4%;
   top: 3%;
-  text-shadow: 80;/* COME BACK TO THIS*/
+  text-shadow: 80;
 }
-
 .container {
   display: inline-block;
   cursor: pointer;
@@ -303,13 +280,13 @@ padding: 3% 35% 3% 5%;
   transition: 0.4s;
 }
 
-/* Rotate first bar */
+
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
   transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
-/* Fade out the second bar */
+
 .change .bar2 {
   opacity: 0;
 }
@@ -401,11 +378,15 @@ li a:hover {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-#home_button {
-  background-color: rgb(160,160,160);
+#home_button_wrapper {
   position: relative;
   top: 10%;
   right: 42%;
+  text-decoration: none;
+}
+
+#home_button {
+  background-color: rgb(160,160,160);
   font-size: 400%;
   border: none;
   outline: none;
@@ -441,6 +422,13 @@ li a:hover {
   margin: 20px 120px 80px 120px;
   background-color: rgb(255, 254, 250);
   text-align: left;
+}
+
+@media only screen and (max-width: 600px){
+  #second_row {
+    width: 80%;
+    margin: auto;
+  }
 }
 .container-fluid {
   margin-right: auto;
